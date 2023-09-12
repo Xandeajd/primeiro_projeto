@@ -1,0 +1,186 @@
+* {
+    Margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header,
+form button {
+    font-family: 'Bungeeg', cursive;
+    font-weight: normal;
+}
+
+#search input {
+display: flex;
+align-items: center;
+background-color: #fff;
+width: 500px;
+}
+
+header .container {
+    justify-content: space-between;
+}
+
+body, input, textarea, footer {
+    font-family: 'Bungee', cursive;
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: rgb(34, 43, 34);
+}
+
+header .container{
+    padding: 16px 0;
+    background-color: #000000;
+    color: #ecf0f1;
+    box-sizing:content-box;
+    width: auto;
+    height: auto;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 18px;
+}
+
+header nav li a {
+    color: #ecf0f1;
+    text-decoration: none;
+}
+
+header .container,
+section .container {
+    display: flex;
+    align-items: center;
+}
+
+#Produtos {
+    color: #fff;
+}
+
+#Produtos h2 {
+    width: 1366px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+    bottom: 30px;
+}
+
+#Learn {
+    color: #000000;
+    background-color: rgb(255, 255, 255);
+    padding: 30px;
+}
+
+.container article {
+    max-width: 1366px;
+    margin: 0 auto;
+    display: inline;
+}
+
+.container {
+    box-sizing: border-box;
+}
+
+section img {
+    height: 300px;
+}
+
+#Learn h2 {
+    width: 1366px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+    margin-bottom: 10px;
+}
+
+section .container {
+    width: 1366px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.articles {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container article{
+    width: 30%;
+}
+
+section p {
+    margin-bottom: 8px;
+}
+
+#contact h2 {
+    width: 1366px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+    bottom: 30px;
+    color: #ecf0f1;
+}
+
+#contact .container {
+    display: block;
+}
+
+.contact-methods {
+    display: flex;
+    justify-content: space-between;
+    color: #ecf0f1;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+    color: #ecf0f1;
+}
+
+#contact .container
+.contact-methods {
+    width: 1366px;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+form textarea {
+    resize: none;
+    height: 180px;
+}
+
+section h3 {
+    margin-bottom: 16px;
+    display: inline-block;
+}
+
+form button {
+    background-color: #182C61;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #741dad;
+}
+input:focus textarea:focus {
+    outline-color: #182C61;
+}
+
+footer {
+    margin: 0 auto;
+    background-color: #182C61;
+    padding: 16px 0;
+    box-sizing: content-box;
+    margin: 0 auto; 
+    display: flex;
+    align-items: center;
+}
